@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  width: 1280px;
+  height: 560px;
+}
+
+.nav-bar {
+  background-color: #2c2724;
+  width: 1280px;
+  height: 50px;
+  display: flex;
+}
+
+.nav-ul {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li {
+  color: white;
+  list-style: none;
+}
+
+.header-content{
+  width: 1280px;
+  height: 500px;
+  background-image: url(../img/iphone-background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-intro {
+  color: #2c2724;
+  font-size: 20px;
+}
+
+.header-sm-title {
+  color: #2c2724;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.header-lg-title {
+  color: #2c2724;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.header-links {
+  width: 375px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.header-items a {
+  text-decoration: none;
+  list-style: none;
+  color: #2c2724;
+}
+
+.header-items {
+  list-style: none;
+}
